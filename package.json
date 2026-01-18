@@ -1,0 +1,28 @@
+{
+  "name": "code-review-agent",
+  "version": "1.0.0",
+  "description": "code-review-agent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leedoughty/code-review-agent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leedoughty/code-review-agent/issues"
+  },
+  "homepage": "https://github.com/leedoughty/code-review-agent#readme",
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.2.12"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
